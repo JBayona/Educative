@@ -28,3 +28,26 @@ function helper(array, key, start, end) {
     return helper(array, key, middle + 1, end)
   }
 }
+
+// Iterative
+/*
+Time O(log n).
+Space O(1).
+*/
+let binarySearch = function(a, key) {
+  let low = 0;
+  let high = a.length - 1;
+  while (low <= high) {
+    let mid = Math.floor((high - low) / 2);
+    if (a[mid] === key) {
+      return mid;
+    }
+
+    if (key < a[mid]) {
+      high = mid - 1;
+    } else {
+      low = mid + 1;
+    }
+  }  
+  return -1;
+};
