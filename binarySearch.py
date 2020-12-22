@@ -26,3 +26,22 @@ def helper(array, key, start, end):
     return helper(array, key, middle + 1, end)
   else:
     return helper(array, key, start, middle - 1)
+  
+  # Iterative
+  import math
+
+def binary_search(a, key):  
+  low = 0
+  high = len(a) - 1
+  
+  while low <= high:
+    mid = math.floor((high + low) / 2)
+    
+    if a[mid] == key:
+      return mid
+    
+    if key < a[mid]:
+      high = mid - 1
+    else:
+      low = mid + 1
+  return -1
