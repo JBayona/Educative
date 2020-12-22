@@ -15,6 +15,7 @@ Time O(log n).
 Space O(log n).
 */
 function helper(array, key, start, end) {
+  // Not found
   if(start > end) {
     return -1;
   }
