@@ -1,6 +1,7 @@
 """
 Implement Binary Search on a Sorted Array
-Given a sorted array of integers, return the index of the given key. Return -1 if the key is not found.
+Given a sorted array of integers, return the index of the given key.
+Return -1 if the key is not found.
 
 https://www.educative.io/courses/coderust-hacking-the-coding-interview/k5qJx
 """
