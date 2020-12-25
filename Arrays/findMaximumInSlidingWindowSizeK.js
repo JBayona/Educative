@@ -37,6 +37,7 @@ let findMaxSlidingWindow = function(arr, windowSize) {
     dequeue.push(i);
   }
 
+  // Push the firs one in the result, it's the first in the window.
   result.push(arr[dequeue[0]])
 
   for(let i = windowSize; i < arr.length; i++) {
