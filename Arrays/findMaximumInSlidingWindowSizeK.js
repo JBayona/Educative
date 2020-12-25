@@ -13,6 +13,7 @@ Step 3: In the last window, max is 6.
 Result = [2, 3, 6]
 
 https://www.educative.io/courses/coderust-hacking-the-coding-interview/k5llE
+https://www.youtube.com/watch?v=m-Dqu7csdJk
 */
 
 // Option 1
