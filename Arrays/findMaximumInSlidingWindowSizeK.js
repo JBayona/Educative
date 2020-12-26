@@ -3,7 +3,6 @@ Given a large array of integers and a window of size ww, find the current maximu
 value in the window as the window slides through the entire array.
 
 Let’s try to find all maximums for a window size equal to 33 in the array given below:
-
 arr = -4 2 -5 3 6
 
 Step 1: For the first 3 elements in the window, max is 2.
