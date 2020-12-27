@@ -58,7 +58,7 @@ let findMaxSlidingWindow = function(arr, windowSize) {
 };
 
 // Option 2
-// Time O((N - k + 1) * k) = O(n * k)
+// Time O(n * k)
 let findMaxSlidingWindow = function(arr, window_size) {
   var result = [];
   let max = 0;
