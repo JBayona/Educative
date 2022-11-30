@@ -1,5 +1,6 @@
 /*
-We’re given an integer array, nums. Move all zeroes, if any, to the left while maintaining the order of other elements in the array.
+We’re given an integer array, nums. Move all zeroes, if any, to the left while
+maintaining the order of other elements in the array.
 All changes must be made in nums itself; no return value is expected.
 
 Sample input
