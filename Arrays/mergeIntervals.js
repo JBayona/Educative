@@ -83,8 +83,8 @@ var merge = function(intervals) {
   
   // Sort using start time as point of sorting
   // Use a comparator
-  //[0] - Start time
-  //[1] - End time
+  // [0] - Start time
+  // [1] - End time
   intervals = intervals.sort((a,b) => a[0] - b[0]);
 
   let pre = intervals[0];
